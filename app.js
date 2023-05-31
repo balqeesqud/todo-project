@@ -10,7 +10,7 @@ console.log(Gender)
  console.log(Gender);
 }
 
-let Age=prompt("Enter your Age");
+let Age=prompt("Enter your Age", int);
 if (Age<=0) {
   alert ("please re-enter your age"); 
   prompt("Enter your Age");
