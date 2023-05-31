@@ -38,11 +38,9 @@
 
 
 table {
-      border-collapse:collapse;
-      width: 100%;
+    
       margin:0 auto;
       width: 50%;
-      max-width:100%;
       margin-bottom: 17%;
     
 
@@ -94,3 +92,7 @@ table {
         padding: 10px;
         text-align: center;
     }
+    .checkbox {
+    margin-left: 150px;
+    display: inline-block;
+      }
