@@ -1,8 +1,7 @@
 let Name= prompt("Please Enter Your Name");
 console.log(Name);
 
-let Gender=prompt("Enter your gender").toLowerCase();
-
+let Gender=prompt ("Enter your gender").toLowerCase();
 if(Gender=="female"){
 console.log(Gender)
 }else if (Gender=="male"){
@@ -30,6 +29,5 @@ let conf=confirm( "Welcome to To Do Website" );
   break;
 
   default: alert ("Welcome "+ Name);
-
   }
 
