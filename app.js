@@ -31,3 +31,49 @@ let conf=confirm( "Welcome to To Do Website" );
   default: alert ("Welcome "+ Name);
   }
 
+ let answer=[]
+  function questions(){
+   let answer1= prompt ("Do you want to be  a programmer?").toLowerCase();
+   if (answer1== "no") {
+    answer.push(answer1);
+
+   }else if(answer1=="yes") {
+    answer.push(answer1);
+   } else {
+    answer.push("invalid");
+   }
+
+
+   let answer2=prompt ("Do you need help in creating websites?") .toLowerCase();
+    if (answer2== "no") {
+      answer.push(answer2);
+  
+     }else if(answer2=="yes") {
+      answer.push(answer2);
+     } else {
+      answer.push("invalid");
+     }
+    
+
+   let answer3=prompt ("Are you good at English?") .toLowerCase();
+    if (answer3== "no") {
+      answer.push(answer3);
+  
+     }else if(answer3=="yes") {
+      answer.push(answer3);
+     } else {
+      answer.push("invalid");
+     }
+   
+  }
+  questions();
+  loop();
+  
+  function loop(){
+    for(let i=0; i<answer.length; i++){
+      console.log(answer[i]);
+    }
+  }
+
+
+
