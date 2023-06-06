@@ -64,11 +64,16 @@ let conf=confirm( "Welcome to To Do Website" );
      } else {
       answer.push("invalid");
      }
+   
+  }
+  questions();
+  loop();
+  
+  function loop(){
     for(let i=0; i<answer.length; i++){
       console.log(answer[i]);
     }
   }
-  questions();
 
 
 
